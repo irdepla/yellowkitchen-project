@@ -164,6 +164,11 @@
   color: #9093A6;
 }
 
+.delivery__address:focus{
+  outline: none;
+  border: none;
+}
+
 
 .delivery__btn{
   padding: 28px 24px;
@@ -175,6 +180,52 @@
   color: #B79C10;
 }
 
+/* Specialities section styles */
+
+.specialities__section{
+  margin-top: 72px;
+}
+
 .specialities__text{
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.specialities__btn{
+  border-radius: 4px;
+  padding: 16px 24px 16px 24px;
+  border: none;
+  background: #F2F4FA;
+  font-weight: 500;
+  font-size: 16px;
+  color: #9093A6;
+}
+
+.specialities__title{
+font-size: 36px;
+font-weight: 300;
+line-height: 64px;
+letter-spacing: 0.08em;
+}
+
+
+.specialities__cards{
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-top: 48px;
+  box-shadow: 0px 2px 16px 0px #3C3E4A14;
+}
+
+.specialities__card{
+  width: 136px;
+  height: 136px;
+  text-align: center;
+}
+
+
+.specialities__card__title{
+  font-weight: 300;
+  color: #313030;
 }
