@@ -250,3 +250,48 @@ letter-spacing: 0.08em;
   background-image: url(/images/Map.png);
   margin-top: 72px;
 }
+
+
+/* Instagram images section */
+
+.instagram__section{
+  margin-top: 72px;
+}
+
+.instagram__images{
+  margin-top: 21px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  border-radius: 6px;
+}
+
+.instagram__title{
+  font-weight: 300;
+  font-size: 36px;
+}
+
+.instagram__subtitle{
+  color: #9093A6;
+}
+
+/* Footer section styles */
+
+.footer__section{
+  margin-top: 72px;
+  background-color: #3f4255;
+  height: 440px;
+}
+
+.brand-logo-and-app{
+  width: 300px;
+  color: white;
+}
+
+.hr{
+  margin-top: 48px;
+}
+
+.download-app__img__container{
+  margin-top: 48px;
+}
